@@ -15,17 +15,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\nativefiledialog\build\lib\Release\x64\nfd-x64.dll" Link="nfd-x64.dll">
+    <None Update="nfd-x64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="..\..\nativefiledialog\build\lib\Release\x86\nfd-x86.dll" Link="nfd-x86.dll">
+    <None Update="nfd-x86.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="nfd-x86 - Copy.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
